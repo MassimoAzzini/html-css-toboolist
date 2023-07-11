@@ -33,11 +33,13 @@ header h1{
 }
 
 /* MAIN */
+
 .container{
   background-color: white;
   padding-left: 40px;
 }
 
+/* sezione bottoni */
 .cont-buttons{
   padding-top: 10px;
   padding-bottom: 10px;
@@ -62,7 +64,9 @@ header h1{
   border-color: #c5cbd0;
   color: #c5cbd0;
 }
+/* fine sezione bottoni */
 
+/* sezione lista */
 .container.cont-list{
   padding-top: 30px;
   padding-bottom: 30px;
@@ -71,7 +75,6 @@ header h1{
 
 #main-list, #secondary-list{
   list-style-type: none;
-  
 }
 
 #main-list li{
@@ -132,6 +135,6 @@ header h1{
   background-color: #b0c926;
   border-color: #b0c926;
 }
-
+/* fine sezione lista */
 
 
