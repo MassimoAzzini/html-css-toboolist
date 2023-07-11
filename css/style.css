@@ -62,3 +62,45 @@ header h1{
   border-color: #c5cbd0;
   color: #c5cbd0;
 }
+
+.container.cont-list{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+#main-list, #secondary-list{
+  list-style-type: none;
+  
+}
+
+#secondary-list{
+  font-size: 1rem;
+}
+
+
+#secondary-list .check{
+  color: #60bea6;
+  font-size: 0.6rem;
+  padding: 3px;
+  border: 1px solid #60bea6;
+  border-radius: 50%;
+}
+
+#secondary-list .icon {
+  display: inline-block;
+  font-size: 0.6rem;
+  color: white;
+  padding: 5px 10px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.icon.blue{
+  background-color: #47adf1;
+  border-color: #47adf1;
+}
+
+
+
