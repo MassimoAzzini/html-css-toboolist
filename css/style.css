@@ -12,7 +12,13 @@ header{
 
 main{
   background-color: #f6f8f9;
-  height: 500px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.general-container{
+  width: 70%;
+  margin: 0 auto;
 }
 
 
@@ -26,8 +32,33 @@ header h1{
   font-size: 2.5rem;
 }
 
-
-
-
-
 /* MAIN */
+.container{
+  background-color: white;
+  padding-left: 40px;
+}
+
+.cont-buttons{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #f6f8f9;
+}
+
+.cont-buttons button{
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: solid;
+  font-size: 0.6rem;
+}
+
+#task-button{
+  background-color: #47adf1;
+  border-color: #43abf0;
+  color: white;
+}
+
+#section-button{
+  background-color: white;
+  border-color: #c5cbd0;
+  color: #c5cbd0;
+}
